@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat" ,sans-serif ;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg,#240336,#d8d1db);
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 9px;
+}
+
+.txt_input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+#tx1{
+    color:#fff;
+}
+
+h3{
+    margin: 10px 0;
+}
+
+h4{
+    font-size: 29px;
+}
+.task{
+    width: 100%;
+    background: rgba(240, 23, 149, 0.5);
+    padding: 20px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.completed .task{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+header{
+    font-size: 30px;
+    font-weight: 660;
+    margin-left: 700px;
+    margin-top: 80px;
+}
